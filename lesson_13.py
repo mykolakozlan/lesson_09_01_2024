@@ -7,15 +7,15 @@
 # print(pi_number)
 
 
-# def simple_num(num):
-#     div = 1
-#     div_list = []
-#     while div <= num:
-#         if num % div == 0:
-#             div_list.append(div)
-#         div += 1
-#
-#     return True if len(div_list) == 2 else False
+def simple_num(num):
+    div = 1
+    div_list = []
+    while div <= num:
+        if num % div == 0:
+            div_list.append(div)
+        div += 1
+
+    return True if len(div_list) == 2 else False
 #
 # def simple_num(n):
 #     if n <= 1:
